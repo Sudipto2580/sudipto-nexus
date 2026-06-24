@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Academic Manager</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+
+<div class="admin-container">
+
+<aside class="admin-sidebar">
+
+<h2>Nexus Admin</h2>
+
+<a href="dashboard.html">Dashboard</a>
+<a href="profile.html">Profile</a>
+<a href="projects.html">Projects</a>
+<a href="certificates.html">Certificates</a>
+<a href="achievements.html">Achievements</a>
+<a href="academics.html">Academics</a>
+
+</aside>
+
+<main class="admin-main">
+
+<h1>Academic Manager</h1>
+
+<div class="admin-card">
+
+<div class="input-group">
+<label>Semester</label>
+<input id="semester">
+</div>
+
+<div class="input-group">
+<label>SGPA</label>
+<input id="sgpa">
+</div>
+
+<div class="input-group">
+<label>CGPA</label>
+<input id="cgpa">
+</div>
+
+<hr style="margin:30px 0;">
+
+<h2>Add Subject</h2>
+
+<div class="input-group">
+<label>Course Code</label>
+<input id="courseCode">
+</div>
+
+<div class="input-group">
+<label>Subject Name</label>
+<input id="subjectName">
+</div>
+
+<div class="input-group">
+<label>Credits</label>
+<input id="credits">
+</div>
+
+<div class="input-group">
+<label>Grade</label>
+<input id="grade">
+</div>
+
+<button
+class="btn"
+onclick="addSubject()">
+
+Add Subject
+
+</button>
+
+</div>
+
+<br>
+
+<div class="admin-card">
+
+<h2>Subject Preview</h2>
+
+<table id="subjectTable" style="width:100%;margin-top:20px;">
+<thead>
+<tr>
+<th>Code</th>
+<th>Subject</th>
+<th>Credits</th>
+<th>Grade</th>
+</tr>
+</thead>
+
+<tbody>
+
+</tbody>
+
+</table>
+
+</div>
+
+<br>
+
+<button
+class="btn"
+onclick="generateAcademic()">
+
+Generate JSON
+
+</button>
+
+<br><br>
+
+<textarea
+id="output"
+class="output-box">
+</textarea>
+
+</main>
+
+</div>
+
+<script src="js/academics.js"></script>
+<script src="js/github-config.js"></script>
+<script src="js/github-api.js"></script>
+
+</body>
+</html>

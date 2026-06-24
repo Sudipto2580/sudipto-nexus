@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Achievements Manager</title>
+
+<link rel="stylesheet" href="css/admin.css">
+
+</head>
+
+<body>
+
+<div class="admin-container">
+
+<aside class="admin-sidebar">
+
+<h2>Nexus Admin</h2>
+
+<a href="dashboard.html">Dashboard</a>
+<a href="profile.html">Profile</a>
+<a href="projects.html">Projects</a>
+<a href="certificates.html">Certificates</a>
+<a href="achievements.html" class="active">Achievements</a>
+<a href="academics.html">Academics</a>
+
+</aside>
+
+<main class="admin-main">
+
+<h1>Achievements Manager</h1>
+
+<div class="admin-card">
+
+<div class="input-group">
+
+<label>Achievement Title</label>
+
+<input
+id="title"
+type="text">
+
+</div>
+
+<div class="input-group">
+
+<label>Description</label>
+
+<textarea
+id="description"
+rows="5">
+</textarea>
+
+</div>
+
+<div class="input-group">
+
+<label>Date</label>
+
+<input
+id="date"
+type="date">
+
+</div>
+
+<div class="input-group">
+
+<label>Organization</label>
+
+<input
+id="organization"
+type="text">
+
+</div>
+
+<div class="input-group">
+
+<label>Proof Link</label>
+
+<input
+id="proof"
+type="text">
+
+</div>
+
+<div class="input-group">
+
+<label>Achievement Image</label>
+
+<input
+type="file"
+id="achievementImage"
+accept="image/*">
+
+</div>
+
+<div class="image-preview-container">
+
+<img
+id="achievementPreview"
+class="image-preview">
+
+</div>
+
+<div class="input-group">
+
+<label>Proof PDF</label>
+
+<input
+type="file"
+id="achievementPDF"
+accept=".pdf">
+
+</div>
+
+<div class="pdf-preview-container">
+
+<iframe
+id="achievementPdfPreview"
+class="pdf-preview">
+</iframe>
+
+</div>
+<button
+class="btn"
+onclick="addAchievement()">
+
+Add Achievement
+
+</button>
+
+</div>
+
+<br>
+
+<div class="admin-card">
+
+<h2>Achievement Preview</h2>
+
+<table
+id="achievementTable"
+style="width:100%;margin-top:20px;">
+
+<thead>
+
+<tr>
+
+<th>Title</th>
+<th>Organization</th>
+<th>Date</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+</tbody>
+
+</table>
+
+</div>
+
+<br>
+
+<button
+class="btn"
+onclick="generateAchievements()">
+
+Generate Achievements JSON
+
+</button>
+
+<br><br>
+
+<textarea
+id="achievementOutput"
+class="output-box">
+</textarea>
+
+</main>
+
+</div>
+
+<script src="js/auth.js"></script>
+<script src="js/achievements.js"></script>
+<script src="js/github-config.js"></script>
+<script src="js/github-api.js"></script>
+</body>
+
+</html>

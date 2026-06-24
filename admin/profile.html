@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Profile Manager</title>
+
+    <link rel="stylesheet" href="css/admin.css">
+
+</head>
+
+<body>
+
+<div class="admin-container">
+
+    <aside class="admin-sidebar">
+
+        <h2>Nexus Admin</h2>
+
+        <a href="dashboard.html">
+            Dashboard
+        </a>
+
+        <a href="profile.html" class="active">
+            Profile
+        </a>
+
+        <a href="projects.html">
+            Projects
+        </a>
+
+        <a href="certificates.html">
+            Certificates
+        </a>
+
+        <a href="achievements.html">
+            Achievements
+        </a>
+
+        <a href="academics.html">
+            Academics
+        </a>
+
+    </aside>
+
+    <main class="admin-main">
+
+        <div class="dashboard-header">
+
+            <h1>Profile Manager</h1>
+
+            <button
+            class="logout-btn"
+            onclick="logout()">
+
+                Logout
+
+            </button>
+
+        </div>
+
+        <div class="admin-card">
+
+            <div class="input-group">
+                <label>Full Name</label>
+                <input id="fullName" type="text">
+            </div>
+
+            <div class="input-group">
+                <label>Headline</label>
+                <input id="headline" type="text">
+            </div>
+
+            <div class="input-group">
+                <label>CGPA</label>
+                <input id="cgpa" type="number" step="0.01">
+            </div>
+
+            <div class="input-group">
+                <label>Semester</label>
+                <input id="semester" type="number">
+            </div>
+
+            <div class="input-group">
+                <label>Branch</label>
+                <input id="branch" type="text">
+            </div>
+
+            <div class="input-group">
+                <label>College</label>
+                <input id="college" type="text">
+            </div>
+
+            <div class="input-group">
+                <label>Batch</label>
+                <input id="batch" type="text">
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input id="email" type="email">
+            </div>
+
+            <div class="input-group">
+                <label>Phone</label>
+                <input id="phone" type="text">
+            </div>
+
+            <div class="input-group">
+                <label>GitHub</label>
+                <input id="github" type="text">
+            </div>
+
+            <div class="input-group">
+                <label>LinkedIn</label>
+                <input id="linkedin" type="text">
+            </div>
+
+            <div class="input-group">
+                <label>Description</label>
+                <textarea
+                id="description"
+                rows="6">
+                </textarea>
+            </div>
+
+            <div class="input-group">
+
+                <label>Select Profile Image</label>
+
+                <input
+                type="file"
+                id="imageUpload"
+                accept="image/*">
+
+            </div>
+
+            <div class="image-preview-container">
+
+                <img
+                id="imagePreview"
+                class="image-preview">
+
+            </div>
+
+            <div class="input-group">
+
+                <label>Resume PDF</label>
+
+                <input
+                type="file"
+                id="resumeUpload"
+                accept=".pdf">
+
+            </div>
+
+            <div class="pdf-preview-container">
+
+                <iframe
+                id="resumePreview"
+                class="pdf-preview">
+                </iframe>
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="admin-card">
+
+            <h2>Skills Manager</h2>
+
+            <div class="input-group">
+
+                <label>Skill</label>
+
+                <input
+                id="skillInput"
+                type="text">
+
+            </div>
+
+            <button
+            type="button"
+            class="btn"
+            onclick="addSkill()">
+
+                Add Skill
+
+            </button>
+
+            <br><br>
+
+            <ul id="skillsList"></ul>
+
+        </div>
+
+        <br>
+
+        <div class="admin-card">
+
+            <h2>Roles Manager</h2>
+
+            <div class="input-group">
+
+                <label>Role</label>
+
+                <input
+                id="roleInput"
+                type="text">
+
+            </div>
+
+            <button
+            type="button"
+            class="btn"
+            onclick="addRole()">
+
+                Add Role
+
+            </button>
+
+            <br><br>
+
+            <ul id="rolesList"></ul>
+
+        </div>
+
+        <br>
+
+        <button
+        class="btn"
+        onclick="generateProfileJSON()">
+
+            Generate Profile JSON
+
+        </button>
+
+        <br><br>
+
+        <textarea
+        id="output"
+        class="output-box">
+        </textarea>
+
+    </main>
+
+</div>
+
+<script src="js/auth.js"></script>
+<script src="js/logout.js"></script>
+<script src="js/profile.js"></script>
+<script src="js/github-config.js"></script>
+<script src="js/github-api.js"></script>
+
+</body>
+
+</html>

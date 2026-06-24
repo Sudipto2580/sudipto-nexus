@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Certificates Manager</title>
+
+<link rel="stylesheet" href="css/admin.css">
+
+</head>
+
+<body>
+
+<div class="admin-container">
+
+<aside class="admin-sidebar">
+
+<h2>Nexus Admin</h2>
+
+<a href="dashboard.html">Dashboard</a>
+<a href="profile.html">Profile</a>
+<a href="projects.html">Projects</a>
+<a href="certificates.html" class="active">Certificates</a>
+<a href="achievements.html">Achievements</a>
+<a href="academics.html">Academics</a>
+
+</aside>
+
+<main class="admin-main">
+
+<h1>Certificates Manager</h1>
+
+<div class="admin-card">
+
+<div class="input-group">
+
+<label>Certificate Title</label>
+
+<input
+id="title"
+type="text">
+
+</div>
+
+<div class="input-group">
+
+<label>Issuer</label>
+
+<input
+id="issuer"
+type="text">
+
+</div>
+
+<div class="input-group">
+
+<label>Date</label>
+
+<input
+id="date"
+type="date">
+
+</div>
+
+<div class="input-group">
+
+<label>Credential ID</label>
+
+<input
+id="credential"
+type="text">
+
+</div>
+
+<div class="input-group">
+
+<label>Certificate Link</label>
+
+<input
+id="link"
+type="text">
+
+</div>
+
+<div class="input-group">
+
+<label>Certificate Image</label>
+
+<input
+type="file"
+id="certificateImage"
+accept="image/*">
+
+</div>
+
+<div class="image-preview-container">
+
+<img
+id="certificatePreview"
+class="image-preview">
+
+</div>
+
+<div class="input-group">
+
+<label>Certificate PDF</label>
+
+<input
+type="file"
+id="certificatePDF"
+accept=".pdf">
+
+</div>
+
+<div class="pdf-preview-container">
+
+<iframe
+id="certificatePdfPreview"
+class="pdf-preview">
+</iframe>
+
+</div>
+
+<button
+class="btn"
+onclick="addCertificate()">
+
+Add Certificate
+
+</button>
+
+</div>
+
+<br>
+
+<div class="admin-card">
+
+<h2>Certificate Preview</h2>
+
+<table
+id="certificateTable"
+style="width:100%;margin-top:20px;">
+
+<thead>
+
+<tr>
+
+<th>Title</th>
+<th>Issuer</th>
+<th>Date</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+</tbody>
+
+</table>
+
+</div>
+
+<br>
+
+<button
+class="btn"
+onclick="generateCertificates()">
+
+Generate Certificates JSON
+
+</button>
+
+<br><br>
+
+<textarea
+id="certificateOutput"
+class="output-box">
+</textarea>
+
+</main>
+
+</div>
+
+<script src="js/auth.js"></script>
+<script src="js/certificates.js"></script>
+<script src="js/github-config.js"></script>
+<script src="js/github-api.js"></script>
+
+</body>
+
+</html>

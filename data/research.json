@@ -1,0 +1,19 @@
+[
+  {
+    "title":"Virtual Reality Research",
+    "description":"Research on immersive environments and VR systems.",
+    "year":"Upcoming Research"
+  },
+  {
+  "title":"Generative AI",
+  "description":"Researching LLM applications and AI Agents."
+  },
+  {
+  "title":"Computer Vision",
+  "description":"YOLO based intelligent systems."
+  },
+  {
+  "title":"Virtual Reality",
+  "description":"VR based educational environments."
+  }
+]

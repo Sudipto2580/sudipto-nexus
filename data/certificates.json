@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Machine Learning Specialization",
+    "issuer": "Coursera",
+    "year": 2025,
+    "pdf": "ml-specialization.pdf"
+  },
+
+  {
+    "name": "Google AI Essentials",
+    "issuer": "Google",
+    "year": 2025,
+    "pdf": "google-ai.pdf"
+  }
+]

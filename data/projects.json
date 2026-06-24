@@ -1,0 +1,93 @@
+[
+  {
+    "title": "DeepHire AI",
+    "description": "AI-powered recruitment platform with ATS, Resume Analysis and AI Interviewer.",
+    "technologies": [
+      "Python",
+      "Streamlit",
+      "Machine Learning",
+      "Gemini AI"
+    ],
+    "category": "Generative AI Development",
+    "github": "https://github.com/Sudipto2580",
+    "image":"assets/images/projects/deephire.png",
+    "demo":"https://...",
+    "status": "Completed"
+  },
+
+  {
+    "title": "Smart Shop Inventory",
+    "description": "Inventory Management System using YOLO Detection and Automation.",
+    "technologies": [
+      "Python",
+      "YOLO",
+      "SQLite",
+      "Streamlit"
+    ],
+    "category": "Computer Vision and ML Development",
+    "github": "https://github.com/Sudipto2580",
+    "image": "",
+    "demo":"https://...",
+    "status": "Completed"
+  },
+
+  {
+    "title": "Smart Query Database",
+    "description": "Database Analytics Platform with Advanced Query Management.",
+    "technologies": [
+      "Flask",
+      "MySQL",
+      "Bootstrap"
+    ],
+    "category": "Web and Database Development",
+    "github": "https://github.com/Sudipto2580",
+    "image":"",
+    "demo":"https://...",
+    "status": "Completed"
+  },
+
+  {
+    "title": "Campus Bazar",
+    "description": "Marketplace platform for students.",
+    "technologies": [
+      "React",
+      "Firebase"
+    ],
+    "category": "E-commerce and Web Development",
+    "github": "https://github.com/Sudipto2580",
+    "image":"",
+    "demo":"https://...",
+    "status": "Completed"
+  },
+
+  {
+    "title": "Smart Study Planner",
+    "description": "AI assisted study planning and productivity system.",
+    "technologies": [
+      "Node.js",
+      "MongoDB",
+      "Express"
+    ],
+    "category": "Mobile Application Development",
+    "github": "https://github.com/Sudipto2580",
+    "image":"",
+    "demo":"https://...",
+    "status": "In Progress"
+  },
+
+  {
+    "title": "Sudipto Nexus",
+    "description": "Personal Academic and Professional Portal.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "JSON"
+    ],
+    "category": "Website Development",
+    "github": "https://github.com/Sudipto2580",
+    "image":"",
+    "demo":"https://...",
+    "status": "In Progress"
+  }
+]

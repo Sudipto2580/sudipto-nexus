@@ -1,0 +1,215 @@
+{
+  "cgpa": 7.12,
+  "currentSemester": 5,
+  "program": "Computer Science & Engineering (CSE)",
+  "college": "Dr B R Ambedkar National Institute of Technology Jalandhar",
+  "batch": "2024-2028",
+
+  "semesters": [
+
+    {
+      "semester": 1,
+      "sgpa": 6.29,
+      "credits": 21,
+      "transcript": "semester1.pdf",
+
+      "subjects": [
+        {
+          "code": "CSDC0101",
+          "name": "Digital Circuits and Logic Design (DCLD)",
+          "credits": 4,
+          "grade": "E"
+        },
+        {
+          "code": "HMFC0102",
+          "name": "Management Principales and Indian Constitutional Values",
+          "credits": 3,
+          "grade": "B"
+        },
+         {
+          "code": "ICFC0101",
+          "name": "Elements of Electrical and Electronics Engineering (EEEE)",
+          "credits": 3,
+          "grade": "D"
+        },
+         {
+          "code": "ITFC0101",
+          "name": "Problem Solving Using Python",
+          "credits": 2,
+          "grade": "E"
+        },
+         {
+          "code": "MAFC0102",
+          "name": "Mathematics II",
+          "credits": 4,
+          "grade": "U"
+        },
+         {
+          "code": "PDFE0118",
+          "name": "Website Development ",
+          "credits": 1,
+          "grade": "D"
+        },
+         {
+          "code": "WPFC0100",
+          "name": "Product Realization Through Manufactering Process",
+          "credits": 2,
+          "grade": "C"
+        },
+         {
+          "code": "ICFC0131",
+          "name": "Elements of Electrical and Electronics Engineering Laboratory",
+          "credits": 1,
+          "grade": "B"
+        },
+         {
+          "code": "ITFC0131",
+          "name": "Problem Solving Using Python Laboratory",
+          "credits": 1,
+          "grade": "C"
+        }
+        
+      ]
+    },
+
+    {
+      "semester": 2,
+      "sgpa": 6.78,
+      "credits": 24,
+      "transcript": "semester2.pdf",
+
+       "subjects": [
+        {
+          "code": "CSDC0102",
+          "name": "Discrete Structures",
+          "credits": 4,
+          "grade": "D"
+        },
+        {
+          "code": "CSFC0101",
+          "name": "Computer Programming",
+          "credits": 3,
+          "grade": "E"
+        },
+        {
+          "code": "HMFC0101",
+          "name": "English Communication and Report Writing",
+          "credits": 2,
+          "grade": "B"
+        },
+        {
+          "code": "IDFC0101",
+          "name": "Environtmental Sciences",
+          "credits": 3,
+          "grade": "B"
+        },
+        {
+          "code": "IDFC0102",
+          "name": "Design Thinking for Insdustrial Innovation",
+          "credits": 4,
+          "grade": "B"
+        },
+        {
+          "code": "MAFC0101",
+          "name": "Mathematics I",
+          "credits": 4,
+          "grade": "U"
+        },
+        {
+          "code": "PDFE0104",
+          "name": "Social Works",
+          "credits": 1,
+          "grade": "A"
+        },
+        {
+          "code": "CSFC0131",
+          "name": "Computer Programming Laboratory",
+          "credits": 1,
+          "grade": "D"
+        },
+        {
+          "code": "HMFC0131",
+          "name": "English Communication and Report Writing Laboratory",
+          "credits": 1,
+          "grade": "A"
+        },
+        {
+          "code": "IDFC0131",
+          "name": "Environtmental Sciences Laboratory",
+          "credits": 1,
+          "grade": "A"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "sgpa": 6.56,
+      "credits": 25,
+      "transcript": "semester3.pdf",
+
+       "subjects": [
+        {
+          "code": "CSDC0201",
+          "name": "Data Structures and Algorithms (DSA)",
+          "credits": 3,
+          "grade": "C"
+        },
+        {
+          "code": "CSDC0203",
+          "name": "Object Oriented Programming",
+          "credits": 3,
+          "grade": "C"
+        },
+        {
+          "code": "CSDC0205",
+          "name": "Computer Organization and Architecture",
+          "credits": 3,
+          "grade": "D"
+        },
+        {
+          "code": "CSDC0207",
+          "name": "Data Visualization for Product Design (DVPD)",
+          "credits": 4,
+          "grade": "E"
+        },
+        {
+          "code": "CSDC0209",
+          "name": "Probability and Statistics",
+          "credits": 4,
+          "grade": "D"
+        },
+        {
+          "code": "HMDC0201",
+          "name": "Business Economics and Financial Accounting",
+          "credits": 3,
+          "grade": "C"
+        },
+        {
+          "code": "CSDC0231",
+          "name": "Data Structures and Algorithms Laboratory(DSA)",
+          "credits": 2,
+          "grade": "C"
+        },
+        {
+          "code": "CSDC0233",
+          "name": "Object Oriented Programming Laboratory (OOPS)",
+          "credits": 1,
+          "grade": "B"
+        },
+        {
+          "code": "CSDC0235",
+          "name": "Computer Organization and Architecture Laboratory (COA)",
+          "credits": 1,
+          "grade": "B"
+        },
+        {
+          "code": "CSDC0237",
+          "name": "Data Visualization for Product Design Laboratory (DVPD)",
+          "credits": 1,
+          "grade": "A"
+        }
+      ]
+    }
+
+  ]
+}

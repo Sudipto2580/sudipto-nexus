@@ -1,0 +1,46 @@
+@import url("global.css");
+
+.research-grid,
+.timeline-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(300px,1fr));
+
+    gap:25px;
+
+    margin-bottom:60px;
+}
+
+.research-card,
+.timeline-card{
+
+    background:
+    rgba(255,255,255,.05);
+
+    border:
+    1px solid rgba(255,255,255,.08);
+
+    border-radius:25px;
+
+    padding:25px;
+
+    transition:.3s;
+}
+
+.research-card:hover,
+.timeline-card:hover{
+
+    transform:
+    translateY(-6px);
+}
+
+.year{
+
+    color:#06b6d4;
+
+    font-weight:700;
+
+    margin-top:10px;
+}

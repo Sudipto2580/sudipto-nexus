@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Project Manager</title>
+<link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+
+<div class="admin-container">
+
+<aside class="admin-sidebar">
+
+<h2>Nexus Admin</h2>
+
+<a href="dashboard.html">Dashboard</a>
+<a href="profile.html">Profile</a>
+<a href="projects.html">Projects</a>
+<a href="certificates.html">Certificates</a>
+<a href="achievements.html">Achievements</a>
+<a href="academics.html">Academics</a>
+
+</aside>
+
+<main class="admin-main">
+
+<h1>Projects Manager</h1>
+
+<div class="admin-card">
+
+<div class="input-group">
+<label>Project Title</label>
+<input id="title">
+</div>
+
+<div class="input-group">
+<label>Description</label>
+<textarea id="description"></textarea>
+</div>
+
+<div class="input-group">
+<label>Category</label>
+<input id="category">
+</div>
+
+<div class="input-group">
+<label>GitHub Link</label>
+<input id="github">
+</div>
+
+<div class="input-group">
+<label>Live Demo Link</label>
+<input id="demo">
+</div>
+
+<div class="input-group">
+<label>Status</label>
+
+<select id="status">
+<option>Completed</option>
+<option>In Progress</option>
+</select>
+
+</div>
+
+<div class="input-group">
+<label>Project Image</label>
+
+<input
+type="file"
+id="projectImage"
+accept="image/*">
+
+</div>
+
+<div class="image-preview-container">
+
+<img
+id="projectPreview"
+class="image-preview">
+
+</div>
+
+<button
+class="btn"
+onclick="addProject()">
+
+Add Project
+
+</button>
+
+</div>
+
+<br>
+
+<div class="admin-card">
+
+<h2>Project Preview</h2>
+
+<table
+id="projectTable"
+style="width:100%;margin-top:20px;">
+
+<thead>
+
+<tr>
+
+<th>Title</th>
+<th>Status</th>
+<th>Category</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+</tbody>
+
+</table>
+
+</div>
+
+<br>
+
+<button
+class="btn"
+onclick="generateProjects()">
+
+Generate Projects JSON
+
+</button>
+
+<br><br>
+
+<textarea
+id="projectOutput"
+class="output-box">
+</textarea>
+
+</main>
+
+</div>
+
+<script src="js/projects.js"></script>
+<script src="js/github-config.js"></script>
+<script src="js/github-api.js"></script>
+
+</body>
+</html>

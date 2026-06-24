@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Academics | Sudipto Nexus</title>
+
+<link rel="stylesheet" href="../css/global.css">
+<link rel="stylesheet" href="../css/academics.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div id="sidebar-container"></div>
+
+<div class="container">
+
+<header class="page-header">
+
+<h1>Academic Portal</h1>
+
+<p>
+Academic Journey at NIT Jalandhar
+</p>
+
+</header>
+
+<section class="overview">
+
+<div class="overview-card">
+
+<h3>Current CGPA</h3>
+
+<span id="cgpa"></span>
+
+</div>
+
+<div class="overview-card">
+
+<h3>Current Semester</h3>
+
+<span id="semester"></span>
+
+</div>
+
+<div class="overview-card">
+
+<h3>Total Semesters</h3>
+
+<span id="totalSemesters"></span>
+
+</div>
+
+<div class="overview-card">
+
+<h3>Program</h3>
+
+<span id="program"></span>
+
+</div>
+
+</section>
+
+<section class="semester-section">
+
+<h2>Semester Records</h2>
+
+<div
+id="semesterGrid"
+class="semester-grid">
+
+</div>
+
+</section>
+
+<section class="transcripts">
+
+<h2>Academic Documents</h2>
+
+<div
+id="transcriptGrid"
+class="transcript-grid">
+
+</div>
+
+</section>
+
+</div>
+<div id="subjectModal" class="modal">
+
+<div class="modal-content">
+
+<span
+class="close-modal"
+onclick="closeModal()">
+
+&times;
+
+</span>
+
+<h2 id="modalTitle">
+Semester Subjects
+</h2>
+
+<div id="subjectTableContainer">
+</div>
+
+</div>
+
+</div>
+
+<script src="../js/sidebar.js"></script>
+<script src="../js/academics.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="css/admin.css">
+
+</head>
+
+<body>
+
+    <div class="admin-container">
+
+        <aside class="admin-sidebar">
+
+            <h2>Nexus Admin</h2>
+
+            <a href="dashboard.html" class="active">
+                Dashboard
+            </a>
+
+            <a href="profile.html">
+                Profile
+            </a>
+
+            <a href="projects.html">
+                Projects
+            </a>
+
+            <a href="certificates.html">
+                Certificates
+            </a>
+
+            <a href="achievements.html">
+                Achievements
+            </a>
+
+            <a href="academics.html">
+                Academics
+            </a>
+
+        </aside>
+
+        <main class="admin-main">
+
+            <div class="dashboard-header">
+
+                <div class="top-bar">
+
+                    <h1>Dashboard</h1>
+
+                    <button class="logout-btn" onclick="logout()">
+
+                        Logout
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="admin-grid">
+
+                <a href="profile.html" class="admin-link-card">
+
+                    <div class="admin-card">
+
+                        <h2>Profile</h2>
+
+                        <p>Manage Personal Details</p>
+
+                    </div>
+
+                </a>
+
+                <a href="projects.html" class="admin-link-card">
+
+                    <div class="admin-card">
+
+                        <h2>Projects</h2>
+
+                        <p>Manage Portfolio Projects</p>
+
+                    </div>
+
+                </a>
+
+                <a href="certificates.html" class="admin-link-card">
+
+                    <div class="admin-card">
+
+                        <h2>Certificates</h2>
+
+                        <p>Manage Certifications</p>
+
+                    </div>
+
+                </a>
+
+                <a href="academics.html" class="admin-link-card">
+
+                    <div class="admin-card">
+
+                        <h2>Academics</h2>
+
+                        <p>Manage Semester Records</p>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+            <section class="dashboard-stats">
+
+                <div class="stat-box">
+
+                    <h3 id="projectCount">0</h3>
+
+                    <p>Projects</p>
+
+                </div>
+
+                <div class="stat-box">
+
+                    <h3 id="certificateCount">0</h3>
+
+                    <p>Certificates</p>
+
+                </div>
+
+                <div class="stat-box">
+
+                    <h3 id="achievementCount">0</h3>
+
+                    <p>Achievements</p>
+
+                </div>
+
+                <div class="stat-box">
+
+                    <h3 id="skillCount">0</h3>
+
+                    <p>Skills</p>
+
+                </div>
+
+            </section>
+
+            <section class="quick-actions">
+
+                <button onclick="location.href='profile.html'">
+
+                    Edit Profile
+
+                </button>
+
+                <button onclick="location.href='projects.html'">
+
+                    Add Project
+
+                </button>
+
+                <button onclick="location.href='certificates.html'">
+
+                    Add Certificate
+
+                </button>
+
+                <button onclick="location.href='academics.html'">
+
+                    Update CGPA
+
+                </button>
+
+            </section>
+
+        </main>
+
+
+    </div>
+
+    <script src="js/auth.js"></script>
+
+    <script src="js/logout.js"></script>
+
+    <script src="js/dashboard.js"></script>
+    <script src="js/github-config.js"></script>
+    <script src="js/github-api.js"></script>
+
+</body>
+
+</html>

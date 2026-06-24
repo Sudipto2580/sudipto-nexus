@@ -1,0 +1,56 @@
+{
+"name": "Sudipto Bairagi",
+
+"headline": "Machine Learning Engineer",
+
+"roles": [
+"Machine Learning Engineer",
+"AI Enthusiast",
+"Data Scientist",
+"VR Research Enthusiast",
+"Generative AI Developer"
+],
+
+"cgpa": 7.12,
+
+"semester": 5,
+
+"branch": "Computer Science & Engineering",
+
+"college": "Dr B R Ambedkar National Institute of Technology Jalandhar",
+
+"batch": "2024-2028",
+
+"joinedYear": 2024,
+
+"expectedGraduation": 2028,
+
+"email": "sudiptobairagi1010@gmail.com",
+
+"phone": "+91 9635184226",
+
+"github": "https://github.com/Sudipto2580",
+
+"linkedin": "https://www.linkedin.com/in/sudipto-bairagi-4b059222a",
+
+"description": "Passionate about Artificial Intelligence, Machine Learning, Data Science, Virtual Reality and innovative software systems.",
+
+"profileImage": "assets/images/profile/profile.jpg",
+
+"resume":"assets/pdf/resume/resume.pdf",
+
+"skills": [
+"Python",
+"Machine Learning",
+"Deep Learning",
+"Generative AI",
+"SQL",
+"JavaScript",
+"React Native",
+"Flask",
+"C",
+"C++",
+"Figma",
+"VR Research"
+]
+}
