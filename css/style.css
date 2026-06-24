@@ -549,44 +549,6 @@ body{
     }
 }
 
-@media(max-width:768px){
-
-.sidebar{
-
-position:relative;
-
-width:100%;
-
-height:auto;
-
-}
-
-.main-content{
-
-margin-left:0;
-
-width:100%;
-
-padding:25px;
-}
-
-.hero{
-
-grid-template-columns:1fr;
-}
-
-.profile-image{
-
-width:100%;
-
-max-width:350px;
-
-height:auto;
-
-margin:auto;
-}
-
-}
 .page-header{
 
     margin-bottom:40px;
@@ -774,4 +736,166 @@ margin-bottom:10px;
 color:#94a3b8;
 
 margin-bottom:25px;
+}
+/* =========================
+   MOBILE MENU
+========================= */
+
+.mobile-menu-btn{
+
+    display:none;
+
+    position:fixed;
+
+    top:20px;
+    left:20px;
+
+    width:50px;
+    height:50px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#4f46e5;
+
+    color:white;
+
+    font-size:22px;
+
+    z-index:3000;
+
+    cursor:pointer;
+}
+
+.mobile-overlay{
+
+    display:none;
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.7);
+
+    z-index:1999;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width:768px){
+
+    .mobile-menu-btn{
+        display:block;
+    }
+
+    .sidebar{
+
+        position:fixed;
+
+        left:-300px;
+
+        top:0;
+
+        width:280px;
+
+        height:100vh;
+
+        z-index:2000;
+
+        transition:.35s ease;
+    }
+
+    .sidebar.show{
+
+        left:0;
+    }
+
+    .mobile-overlay.show{
+
+        display:block;
+    }
+
+    .main-content{
+
+        margin-left:0 !important;
+
+        width:100% !important;
+
+        padding:90px 20px 20px !important;
+    }
+
+    .hero{
+
+        display:flex;
+
+        flex-direction:column;
+
+        gap:25px;
+
+        text-align:center;
+    }
+
+    .profile-image{
+
+        width:100%;
+
+        max-width:320px;
+
+        height:auto;
+
+        margin:auto;
+    }
+
+    .hero-right h1{
+
+        font-size:2.6rem;
+    }
+
+    .hero-right h2{
+
+        font-size:1.4rem;
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+
+        width:100%;
+    }
+
+    .stats{
+
+        grid-template-columns:1fr;
+    }
+
+    .projects-grid{
+
+        grid-template-columns:1fr;
+    }
+
+    .academic-card{
+
+        grid-template-columns:1fr;
+    }
+
+    .research-grid,
+    .timeline-grid,
+    .social-grid,
+    .certificates-grid,
+    .achievements-grid{
+
+        grid-template-columns:1fr;
+    }
+
+    .section-header h2{
+
+        font-size:1.8rem;
+    }
 }
