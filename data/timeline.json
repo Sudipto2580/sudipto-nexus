@@ -1,14 +1,51 @@
 [
   {
+    "year":"2015",
+    "title":"Completed my primary schooling(5th standard)"
+  },
+  {
+    "year":"2018",
+    "title":"Completed my Junior Schooling(8th standard)"
+  },
+  {
+    "year":"2021",
+    "title":"Completed my Secondary Schooling(10th standard)"
+  },
+  {
+    "year":"2023",
+    "title":"Completed my Higher Secondary Schooling(12th standard)"
+  },
+  
+  {
     "year":"2024",
-    "title":"Started CSE at NIT Jalandhar"
+    "title":"Started CSE at NIT Jalandhar through ICCR Scholarship Scheme"
   },
   {
     "year":"2025",
+    "title":"Campus Bazar"
+  },
+   {
+    "year":"2025",
+    "title":"Campus Bazar-2.0"
+  },
+   {
+    "year":"2025",
+    "title":"GDGC-smart-study-planner"
+  },
+   {
+    "year":"2025",
     "title":"Built DeepHire AI"
+  },
+   {
+    "year":"2025",
+    "title":"smart-query-database"
+  },
+   {
+    "year":"2025",
+    "title":"Smart-Shop-Inventory-System"
   },
   {
     "year":"2026",
-    "title":"Built Sudipto Nexus"
+    "title":"Built Sudipto Nexus personal portfolio"
   }
 ]

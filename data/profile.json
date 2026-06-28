@@ -1,7 +1,7 @@
 {
 "name": "Sudipto Bairagi",
 
-"headline": "Machine Learning Engineer",
+"headline": "AI & ML Engineer",
 
 "roles": [
 "Machine Learning Engineer",
@@ -12,22 +12,28 @@
 ],
 
 "cgpa": 7.12,
-
 "semester": 5,
-
 "branch": "Computer Science & Engineering",
-
 "college": "Dr B R Ambedkar National Institute of Technology Jalandhar",
-
 "batch": "2024-2028",
-
+"category":"general ICCR Subarna Jayanti Scholarship Scheme",
 "joinedYear": 2024,
-
 "expectedGraduation": 2028,
-
 "email": "sudiptobairagi1010@gmail.com",
-
+"college-mail":"sudiptob.cs.24@nitj.ac.in",
 "phone": "+91 9635184226",
+"blood group":"B+",
+"father's name":"Susanta Bairagi",
+"mother's name":"Nupu Rani Bala",
+"Primary schooling":"Udayan Uccha School, Dhaka.",
+"junior schooling":"Udayan Uccha Secondary School, Dhaka.",
+"secondary schooling":"Government Laboratory High School, Dhaka.",
+"higher secondary schooling":"Government Science College, Dhaka.",
+"Birth Country":"Bangladesh",
+"PEC(primary education certificate)":"5.00",
+"JSC(Junior school certificate)":"5.00",
+"SSC(secondary school certificate":"5.00",
+"HSC(higher secondary school certificate":"5.00",
 
 "github": "https://github.com/Sudipto2580",
 
@@ -39,18 +45,24 @@
 
 "resume":"assets/pdf/resume/resume.pdf",
 
+"hobbies":"Reading Science Fiction books,Playing Video Games,Collecting Foreign Currencies,traveling and planting trees.",
+
 "skills": [
 "Python",
 "Machine Learning",
 "Deep Learning",
 "Generative AI",
 "SQL",
+"Database Read and Management",
 "JavaScript",
 "React Native",
 "Flask",
 "C",
 "C++",
 "Figma",
-"VR Research"
+"VR Research",
+"HR Management",
+"Project Management",
+"Event Management"
 ]
 }

@@ -1,15 +1,50 @@
 [
   {
-    "name": "Machine Learning Specialization",
-    "issuer": "Coursera",
-    "year": 2025,
-    "pdf": "ml-specialization.pdf"
+    "name": "BIS Hackathon 2026 @NITJ",
+    "issuer": "Bereau of Indian Standards (BIS)",
+    "year": 2026,
+    "pdf": "BIS 2026 organizing team .pdf"
   },
 
   {
-    "name": "Google AI Essentials",
-    "issuer": "Google",
-    "year": 2025,
-    "pdf": "google-ai.pdf"
+    "name": "GRE TOEFL Mock Test",
+    "issuer": "Galvanizing Education International.",
+    "year": 2026,
+    "pdf": "GRE_TOEFL_MOCK.pdf"
+  },
+
+  {
+    "name": "Machine Learning Training",
+    "issuer": "Jystra Corporate & IIT Roorkee",
+    "year": 2026,
+    "pdf": "Machine Learning Training Certificate .pdf"
+  },
+
+  {
+    "name": "Machine Learning Internship",
+    "issuer": "Jystra Corporate & IIT Roorkee",
+    "year": 2026,
+    "pdf": "Ml Internship certificate.pdf"
+  },
+
+  {
+    "name": "RootBreach Capture the Flag",
+    "issuer": "UTKANSH Organizing Team, NIT Jalandhar.",
+    "year": 2026,
+    "pdf": "ROOTBREACH CERTIFICATE.pdf"
+  },
+
+  {
+    "name": "Mobile Security and Cyber ",
+    "issuer": "UTKANSH Organizing Team, NIT Jalandhar.",
+    "year": 2026,
+    "pdf": "Security Workshop .pdf"
+  },
+
+  {
+    "name": "TRAE Hackathorn 2026",
+    "issuer": "Nerds Room & NIT Jalandhar.",
+    "year": 2026,
+    "pdf": "Trae Hackathon 2026 Certificate Of Appreciation Trae Hackathon .pdf"
   }
-]
+] 

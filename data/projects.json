@@ -3,55 +3,71 @@
     "title": "DeepHire AI",
     "description": "AI-powered recruitment platform with ATS, Resume Analysis and AI Interviewer.",
     "technologies": [
-      "Python",
-      "Streamlit",
-      "Machine Learning",
-      "Gemini AI"
+      "Languages: Python, SQL, HTML5, CSS3",
+      "Frameworks: Streamlit",
+      "AI/ML: Machine Learning, Deep Learning, NLP, LLMs, Generative AI, Sentence Transformers, Semantic Similarity, TF-IDF, Cosine Similarity",
+      "Libraries: PyTorch, Scikit-learn, Pandas, NumPy, Plotly, PyMuPDF, PyPDF",
+      "Database: Supabase, PostgreSQL",
+      "Cloud & Deployment: Render, GitHub",
+      "Tools: Git, REST API, Python Dotenv",
+      "Domain: ATS, Resume Parsing, Skill Extraction, Candidate Ranking"
     ],
     "category": "Generative AI Development",
     "github": "https://github.com/Sudipto2580",
     "image":"assets/images/projects/deephire.png",
     "demo":"https://...",
-    "status": "Completed"
+    "status": "V1.0 Completed"
   },
 
   {
     "title": "Smart Shop Inventory",
     "description": "Inventory Management System using YOLO Detection and Automation.",
     "technologies": [
-      "Python",
-      "YOLO",
-      "SQLite",
-      "Streamlit"
+    "Languages: Python, SQL",
+    "Frameworks: Streamlit",
+    "AI/ML: YOLOv8, Computer Vision, Object Detection, Automated Shelf Allocation",
+    "Libraries: Ultralytics YOLO, OpenCV, Pandas, NumPy, Plotly, Psycopg2, Python Dotenv",
+    "Database: Supabase, PostgreSQL",
+    "Cloud & Deployment: Render, GitHub",
+    "Tools: Git, REST API, VS Code",
+    "Visualization: Plotly, Interactive Charts, Warehouse Heatmap, Analytics Dashboard",
+    "Features: Live Inventory Management, Auto Shelf Allocation, Barcode Management, Stock Monitoring, Low Stock Alerts, Transaction Logging, Real-Time Inventory Updates"
     ],
     "category": "Computer Vision and ML Development",
     "github": "https://github.com/Sudipto2580",
     "image": "",
     "demo":"https://...",
-    "status": "Completed"
+    "status": "V1.0 Completed"
   },
 
   {
     "title": "Smart Query Database",
     "description": "Database Analytics Platform with Advanced Query Management.",
     "technologies": [
-      "Flask",
-      "MySQL",
-      "Bootstrap"
+    "Languages: Python, SQL, HTML5, CSS3, JavaScript",
+    "Frameworks: Flask, Bootstrap 5, Jinja2",
+    "Database: MySQL, Railway MySQL, SQLAlchemy ORM",
+    "Libraries: Flask-SQLAlchemy, Flask-Bcrypt, PyMySQL, Werkzeug, Faker, Gunicorn",
+    "Authentication: Session-Based Authentication, Role-Based Access Control (Admin/User)",
+    "Cloud & Deployment: Render, Railway, GitHub",
+    "Tools: Git, MySQL Workbench, VS Code, Railway SQL Editor",
+    "Visualization: Bootstrap Dashboard, Chart.js, Analytics Dashboard, Interactive Tables",
+    "Features: User Authentication, Product Management, Category Management, Supplier Management, Shopping Cart, Checkout System, Order Management, Payment Methods, Product Reviews & Ratings, Product Search, Analytics Dashboard, Inventory Management, CRUD Operations, Responsive UI, Dark/Light Theme"
     ],
     "category": "Web and Database Development",
     "github": "https://github.com/Sudipto2580",
     "image":"",
     "demo":"https://...",
-    "status": "Completed"
+    "status": "V1.0 Completed"
   },
 
   {
     "title": "Campus Bazar",
     "description": "Marketplace platform for students.",
     "technologies": [
-      "React",
-      "Firebase"
+      "Languages: Python, C, SQL, HTML5, CSS3",
+      "Database: FireBase",
+      "Tools: Git, REST API, Python Dotenv, VS Code"
     ],
     "category": "E-commerce and Web Development",
     "github": "https://github.com/Sudipto2580",
@@ -64,15 +80,31 @@
     "title": "Smart Study Planner",
     "description": "AI assisted study planning and productivity system.",
     "technologies": [
-      "Node.js",
-      "MongoDB",
-      "Express"
-    ],
+    "Languages: JavaScript (ES6+), Node.js, HTML5, CSS3",
+    "Frontend: React Native, Expo SDK, React Native Web",
+    "Backend: Node.js, Express.js",
+    "Database: MongoDB Atlas, Mongoose ODM",
+    "Authentication: JWT (JSON Web Tokens), Bcrypt.js, Guest Authentication, Google Sign-In (Planned)",
+    "Navigation: React Navigation (Stack Navigator, Bottom Tab Navigator)",
+    "State Management: React Context API, React Hooks",
+    "API Communication: REST APIs, Fetch API",
+    "Storage: AsyncStorage",
+    "UI/UX: React Native Components, Pressable, ActivityIndicator, KeyboardAvoidingView, Custom Theme System, Dark & Light Themes",
+    "Productivity Features: Pomodoro Timer, Study Planner, Session Logging, Activity Tracking, Statistics Dashboard",
+    "Security: Password Hashing, JWT Authentication, Protected Routes, Environment Variables (.env)",
+    "Deployment: Render (Backend Hosting), Netlify (Web Deployment), Expo Application Services (EAS Build)",
+    "Cross Platform: Android, React Native Web, Progressive Web Support",
+    "Version Control: Git, GitHub",
+    "Development Tools: VS Code, npm, Expo CLI, EAS CLI, Metro Bundler",
+    "Testing: Expo Go, Android Emulator, Physical Android Devices",
+    "Build Tools: Android APK, Android App Bundle (AAB), Bundletool",
+    "Architecture: Client-Server Architecture, RESTful API Architecture, Component-Based Design"
+],
     "category": "Mobile Application Development",
     "github": "https://github.com/Sudipto2580",
     "image":"",
     "demo":"https://...",
-    "status": "In Progress"
+    "status": "In Progress and V1.0 is done."
   },
 
   {
@@ -87,7 +119,7 @@
     "category": "Website Development",
     "github": "https://github.com/Sudipto2580",
     "image":"",
-    "demo":"https://...",
-    "status": "In Progress"
+    "demo":"http://sudipto2580.github.io/sudipto-nexus/",
+    "status": "V1.0 Completed."
   }
 ]

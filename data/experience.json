@@ -2,7 +2,43 @@
   {
     "role":"Machine Learning Developer",
     "organization":"Personal Projects",
+    "duration":"2025-Present",
+    "description":"Developing ML and Full Stack projects."
+  },
+  {
+    "role":"Generative AI Developer",
+    "organization":"Personal Projects",
+    "duration":"2025-Present",
+    "description":"Developing AI and Full Stack projects."
+  },
+  {
+    "role":"Virtual Reality Developer",
+    "organization":"Personal Projects",
+    "duration":"2025-Present",
+    "description":"Developing VR based Full Stack projects."
+  },
+  {
+    "role":"VR Model Researcher",
+    "organization":"Personal Research Interest",
+    "duration":"2026-Present",
+    "description":"Developing and researching new VR technologies, models, gaming setup and tools."
+  },
+  {
+    "role":"Researcher",
+    "organization":"Personal Research and Exploration",
+    "duration":"2025-Present",
+    "description":"A Low-Latency Generative AI Pipeline for Runtime Probabilistic Decision Tree Synthesis in VR Games and ML Models."
+  },
+  {
+    "role":"Student Worker",
+    "organization":"Social Work and Rural Activity Club(SWRAC) , NIT Jalandhar",
     "duration":"2024-Present",
-    "description":"Developing AI, ML and Full Stack projects."
+    "description":"Doing some good deeds for the society and people, donation for Rural development camp, planting trees, visiting schools and orphanage and member of the organizing committee of Motivational Speaker Campaign "
+  },
+  {
+    "role":"Discipline Lead",
+    "organization":"Cyber Security Club, NIT Jalandhar",
+    "duration":"2025-Present",
+    "description":"I am a core member of cyber security club specially assigned for event management and discipline lead activities, maintaining different club activities, events and resources used and managed properly"
   }
 ]

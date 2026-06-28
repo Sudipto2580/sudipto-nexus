@@ -1,22 +1,51 @@
 [
   {
-    "title": "DeepHire AI Development",
-    "year": 2025,
-    "category": "Project",
-    "description": "Developed AI-powered recruitment platform with ATS scoring and resume analysis."
+    "title": "DeepHire AI ",
+    "year": 2026,
+    "category": "AI Project",
+    "description": "An ultimate AI-powered recruitment platform for recruiters and students to verify resume, check industry preparations with ATS scoring and AI resume analysis."
   },
 
   {
     "title": "Smart Shop Inventory System",
-    "year": 2025,
-    "category": "Project",
-    "description": "Built intelligent inventory management system using YOLO object detection."
+    "year": 2026,
+    "category": "Database Project",
+    "description": "Built intelligent inventory management system using YOLO object detection, auto slot allocation and dynamic space management."
+  },
+
+   {
+    "title": "Smart Query Database Management System",
+    "year": 2026,
+    "category": "Database Management Project",
+    "description": "Built intelligent database management system using sql and python integration."
+  },
+
+  
+   {
+    "title": "CampusBazar-2.0",
+    "year": 2026,
+    "category": "E-Commerce Management Project",
+    "description": "Built a smart e-commerce testing and buy/sell platform exclusively for NITJ students within the campus area."
   },
 
   {
-    "title": "Portfolio Platform Development",
+    "title": "CampusBazar",
+    "year": 2025,
+    "category": "E-Commerce Management System",
+    "description": "Built a smart e-commerce testing platform exclusively for NITJ students within the campus area so that they can buy and sell second hand goods."
+  },
+
+  {
+    "title": "GDGC-smart-study-planner",
+    "year": 2025,
+    "category": "AI based study planning project",
+    "description": "Built a smart study companion app to maintain consistency and punctuality."
+  },
+
+  {
+    "title": "Sudipto-nexus",
     "year": 2026,
-    "category": "Personal Branding",
-    "description": "Created Sudipto Nexus professional academic and portfolio platform."
+    "category": "Personal Branding Portal",
+    "description": "Created Sudipto Nexus professional academic and portfolio platform to demonstrate my own personal portal."
   }
 ]
