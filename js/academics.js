@@ -27,8 +27,7 @@ academicData.program;
 
 document.getElementById(
 "totalSemesters"
-).textContent =
-academicData.semesters.length;
+).textContent = 8;
 
 loadSemesterCards();
 

@@ -11,7 +11,7 @@
       "semester": 1,
       "sgpa": 6.29,
       "credits": 21,
-      "transcript": "semester1.pdf",
+      "transcript":"assets/pdf/transcripts/semester1.pdf",
 
       "subjects": [
         {
@@ -76,7 +76,7 @@
       "semester": 2,
       "sgpa": 6.78,
       "credits": 24,
-      "transcript": "semester2.pdf",
+      "transcript": "assets/pdf/transcripts/semester2.pdf",
 
        "subjects": [
         {
@@ -145,7 +145,7 @@
       "semester": 3,
       "sgpa": 6.56,
       "credits": 25,
-      "transcript": "semester3.pdf",
+      "transcript": "assets/pdf/transcripts/semester3.pdf",
 
        "subjects": [
         {

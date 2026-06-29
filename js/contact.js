@@ -21,8 +21,8 @@ async function loadContacts() {
 
         <h3>Email</h3>
 
-        <a href="mailto:${socials.email}">
-        ${socials.email}
+        <a href="mailto:${social["personal-email"]}">
+        ${social["personal-email"]}
         </a>
 
     </div>
