@@ -151,10 +151,21 @@ projects.forEach(project => {
 
 card.innerHTML = `
     <div class="project-content">
-    <div class="project-image"></div>
-    <h3>${project.title}</h3>                            
+    <h3>${project.title}</h3>
     <p>${project.description}</p>
-    </div> 
+    <details class="tech-dropdown">
+    <summary>▶ Technologies Used</summary>
+    <div class="tech-list">
+    ${project.technologies.map(tech=>`<span class="tech-tag">${tech}</span>`).join("")}
+    </div>
+    </details>
+    <a
+    href="${project.github}"
+    target="_blank"
+    class="github-btn">
+    GitHub →
+    </a>
+    </div>
     `;
     projectsGrid.appendChild(
         card
@@ -282,25 +293,28 @@ async function loadSocials() {
 
     if(!grid) return;
 
-    grid.innerHTML = `
+   grid.innerHTML = `
 
-        <div class="social-card">
-            GitHub
-            <br>
-            ${socials.github}
-        </div>
+    <div class="social-card">
+    <h3><i class="fab fa-github"></i> GitHub</h3>
+    <a href="${socials.github}" target="_blank">
+    Visit Profile →
+    </a>
+    </div>
 
-        <div class="social-card">
-            LinkedIn
-            <br>
-            ${socials.linkedin}
-        </div>
+    <div class="social-card">
+    <h3><i class="fab fa-linkedin"></i> LinkedIn</h3>
+    <a href="${socials.linkedin}" target="_blank">
+    Visit Profile →
+    </a>
+    </div>
 
-        <div class="social-card">
-            Email
-            <br>
-            ${socials.email}
-        </div>
+    <div class="social-card">
+    <h3><i class="fas fa-envelope"></i> Email</h3>
+    <a href="mailto:${socials["personal-email"]}">
+    ${socials["personal-email"]}
+    </a>
+    </div>
 
     `;
 
@@ -387,6 +401,20 @@ async function loadAchievementsPreview() {
 
     });
 
+}
+
+function animateCounter(id, value){
+const element = document.getElementById(id);
+if(!element) return;
+let start = 0;
+const interval = setInterval(()=>{
+start += 1;
+element.textContent = start;
+if(start >= value){
+element.textContent = value;
+clearInterval(interval);
+}
+},30);
 }
 
 function loadAcademicProgress() {

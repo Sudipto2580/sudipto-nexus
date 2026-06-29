@@ -30,20 +30,6 @@ async function loadProjects() {
         card.className =
             "project-card";
 
-        card.style.cursor =
-            "pointer";
-
-        card.addEventListener(
-            "click",
-            () => {
-
-                window.open(
-                    project.github,
-                    "_blank"
-                );
-
-            });
-
         card.innerHTML = `
 
         <img
@@ -54,6 +40,14 @@ async function loadProjects() {
         <h2>${project.title}</h2>
 
         <p>${project.description}</p>
+
+       <details class="tech-details">
+
+        <summary>
+
+        ▶ Technologies Used
+
+        </summary>
 
         <div class="tech-stack">
 
@@ -67,10 +61,14 @@ async function loadProjects() {
 
         </div>
 
+        </details>
+
         <div class="project-links">
 
-        <a href="${project.github}"
-        target="_blank">
+        <a
+        href="${project.github}"
+        target="_blank"
+        class="github-btn">
 
         GitHub →
 

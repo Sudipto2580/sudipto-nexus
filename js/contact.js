@@ -16,22 +16,20 @@ async function loadContacts() {
     grid.innerHTML = `
 
     <div class="contact-card">
-
+        <h3>
         <i class="fas fa-envelope"></i>
-
-        <h3>Email</h3>
-
-        <a href="mailto:${social["personal-email"]}">
-        ${social["personal-email"]}
+        Email
+        </h3>
+        <a href="mailto:${socials["personal-email"]}">
+        ${socials["personal-email"]}
         </a>
 
     </div>
 
     <div class="contact-card">
-
-        <i class="fas fa-graduation-cap"></i>
-
-        <h3>College Email</h3>
+        <h3>
+        <i class="fas fa-envelope"></i>
+        College Email</h3>
 
         <a href="mailto:${socials["college-email"]}">
         ${socials["college-email"]}
@@ -40,10 +38,10 @@ async function loadContacts() {
     </div>
 
     <div class="contact-card">
-
+        <h3>
         <i class="fab fa-github"></i>
-
-        <h3>GitHub</h3>
+        GitHub
+        </h3>
 
         <a href="${socials.github}"
         target="_blank">
@@ -53,10 +51,10 @@ async function loadContacts() {
     </div>
 
     <div class="contact-card">
-
+        <h3>
         <i class="fab fa-linkedin"></i>
-
-        <h3>LinkedIn</h3>
+        LinkedIn
+        </h3>
 
         <a href="${socials.linkedin}"
         target="_blank">
@@ -67,26 +65,27 @@ async function loadContacts() {
 
     <div class="contact-card">
 
+        <h3>
         <i class="fas fa-phone"></i>
-
-        <h3>Phone</h3>
+        Phone
+        </h3>
 
         <a href="tel:+919635184226">
     +91 9635184226
-</a>
-<br>
-<a href="tel:+8801610302540">
-    +88 01610302540
-</a>
-<br>
-<a href="tel:+8801715818438">
-    +88 01715818438
-</a>
+        </a>
+        <br>
+        <a href="tel:+8801610302540">
+            +88 01610302540
+        </a>
+        <br>
+        <a href="tel:+8801715818438">
+            +88 01715818438
+        </a>
 
-    </div>
+            </div>
 
-`;
+        `;
 
-}
+        }
 
 loadContacts();

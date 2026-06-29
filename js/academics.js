@@ -118,18 +118,35 @@ card.className =
 
 card.innerHTML = `
 
-<i class="fas fa-file-pdf"></i>
+<i class="fas fa-file-pdf pdf-icon"></i>
 
 <h3>
-Semester ${sem.semester}
-Transcript
+Semester ${sem.semester} Transcript
 </h3>
 
 <p>
-${sem.transcript}
+Official Grade Transcript
 </p>
 
+<a
+href="../assets/pdf/transcripts/semester${sem.semester}.pdf"
+target="_blank"
+onclick="event.stopPropagation();"
+class="transcript-btn">
+
+Open Transcript
+
+</a>
+
 `;
+card.onclick = () => {
+
+window.open(
+`../assets/pdf/transcripts/semester${sem.semester}.pdf`,
+"_blank"
+);
+
+};
 
 grid.appendChild(
 card

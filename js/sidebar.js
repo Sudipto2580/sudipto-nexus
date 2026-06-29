@@ -1,3 +1,13 @@
+function toggleMenu(){
+
+document
+.querySelector(".sidebar")
+.classList.toggle(
+"show"
+);
+
+}
+
 function loadSidebar() {
 
 const sidebar = `

@@ -460,26 +460,6 @@ body{
     gap:25px;
 }
 
-.project-card{
-
-    background:
-    rgba(255,255,255,.05);
-
-    border:
-    1px solid rgba(255,255,255,.08);
-
-    border-radius:25px;
-
-    overflow:hidden;
-
-    transition:.4s;
-}
-
-.project-card:hover{
-
-    transform:translateY(-10px);
-}
-
 .project-image{
 
     height:180px;
@@ -898,4 +878,118 @@ margin-bottom:25px;
 
         font-size:1.8rem;
     }
+}
+
+.menu-toggle{
+
+display:none;
+
+}
+@media(max-width:768px){
+
+.menu-toggle{
+
+display:block;
+
+position:fixed;
+
+top:15px;
+
+left:15px;
+
+z-index:9999;
+
+background:#06b6d4;
+
+border:none;
+
+color:white;
+
+padding:12px 15px;
+
+border-radius:12px;
+
+font-size:22px;
+
+}
+
+.sidebar{
+
+left:-100%;
+
+transition:.4s;
+
+}
+
+.sidebar.show{
+
+left:0;
+
+}
+
+.main-content{
+
+margin-left:0;
+
+width:100%;
+
+padding:20px;
+
+}
+
+}
+.tech-dropdown{
+
+margin-top:25px;
+
+}
+
+.tech-dropdown summary{
+
+cursor:pointer;
+
+font-weight:700;
+
+font-size:18px;
+
+margin-bottom:15px;
+
+}
+
+.tech-list{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+margin-top:15px;
+
+}
+
+.tech-tag{
+
+padding:10px 18px;
+
+background:#2f2c78;
+
+border-radius:20px;
+
+font-size:14px;
+
+}
+
+.github-btn{
+
+display:inline-block;
+
+margin-top:25px;
+
+color:#06b6d4;
+
+font-weight:700;
+
+text-decoration:none;
+
 }
